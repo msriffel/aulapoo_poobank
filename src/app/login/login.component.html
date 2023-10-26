@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>POO BANK</title>
+</head>
+<body class="pagina">
+  <h1 class="titulo">POO BANK</h1>
+  <div class="container">
+    <p class="text">SEJA BEM-VINDO</p>
+    <div class="icon">
+      <img src="/assets/icon.png" width="100px" height="100px">
+    </div>
+    <div class="formulario">
+      <div>
+        <input class="entrar" type="text" [(ngModel)]="usuario" placeholder="Informe o CPF">
+      </div>
+      <div>
+        <input class="entrar" type="password" [(ngModel)]="senha" placeholder="Informe a senha">
+      </div>
+      <div>
+        <input class="botao" type="button" value="Entrar" (click)="entrarSistema()">
+      </div>
+      <div>
+        <input class="botao" type="button" value="Esqueci minha senha">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body.pagina {
+    font-family: 'Segoe UI';
+    background-color: #afafaf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .titulo {
+    color: #002aff;
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #000000; /* Adicione uma borda escura */
+    font-size: 100px;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 0px;
+    background-color: #ffffff; /* Altere a cor de fundo aqui */
+    border: 1px solid rgb(0, 0, 0); /* Adicione uma borda escura */
+    border-radius: 25px;
+    padding: 20px; /* Espaçamento interno para afastar o conteúdo da borda */
+  }
+  
+  .text {
+    color: #002aff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .icon {
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .formulario {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ffffff; /* Altere a cor de fundo aqui */
+    border: 1px solid #333; /* Adicione uma borda escura */
+    border-radius: 5px;
+    padding: 20px; /* Espaçamento interno para afastar o conteúdo da borda */
+  }
+  
+  .entrar {
+    text-align: center;
+    border: 1px solid #002aff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+  }
+  
+  .botao {
+    background-color: #002aff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .botao:hover {
+    background-color: #0d009c;
+  }
+  

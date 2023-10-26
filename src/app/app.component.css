@@ -1,0 +1,8 @@
+  .container {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #fff700; /* Altere a cor de fundo aqui */
+    border: 1px solid rgb(0, 0, 0); /* Adicione uma borda escura */
+    border-radius: 5px;
+    padding: 20px; /* Espaçamento interno para afastar o conteúdo da borda */
+  }
